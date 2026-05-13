@@ -1,13 +1,20 @@
-# Node
-backend/node_modules/
-backend/.env
+# Dependencias del proyecto
+node_modules/
+vendor/
+__pycache__
 
-# Python
-qa-tests/venv/
-qa-tests/__pycache__/
-qa-tests/reports/
-*.pyc
 
-# OS
+# Archivos de entorno y credenciales (Seguridad)
+.env
+.venv
+
+.env.local
+*.pem
+
+# Archivos del sistema operativo
 .DS_Store
 Thumbs.db
+
+# Carpetas de compilación
+dist/
+build/
